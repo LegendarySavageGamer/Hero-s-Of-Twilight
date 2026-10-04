@@ -1,0 +1,9 @@
+{
+  "id": "dev.thyherooftime.heroes_of_twilight",
+  "name": "Heroes of Twilight",
+  "version": "1.9.4",
+  "author": "ThyHeroOfTime",
+  "description": "Online Twilight Princess multiplayer. Based on Crests of Courage by remiafterdark.",
+  "icon": "res/icon.png",
+  "banner": "res/banner.png"
+}
