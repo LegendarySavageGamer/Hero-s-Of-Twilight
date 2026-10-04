@@ -1,4 +1,4 @@
-# Heroes of Twilight
+# Hero's of Twilight
 
 Expanded Twilight Princess multiplayer for [Dusklight](https://github.com/TwilitRealm/dusklight), based on **Crests of Courage by remiafterdark**.
 
