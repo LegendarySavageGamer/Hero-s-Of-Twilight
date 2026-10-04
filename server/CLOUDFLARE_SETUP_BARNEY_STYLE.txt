@@ -1,0 +1,23 @@
+GLOBAL TWILIGHT CLOUDFLARE - BARNEY STYLE
+==========================================
+
+You already chose the public Worker address:
+  https://crests-rooms.twilight-heroes.workers.dev
+
+Global WebSocket endpoint:
+  wss://crests-rooms.twilight-heroes.workers.dev/global
+
+NO DOCKER IS USED.
+
+1. Open Command Prompt in this server folder.
+2. Run:
+     npm install
+3. Run:
+     npx wrangler login
+4. Run:
+     npx wrangler deploy
+5. The deploy output should list BOTH:
+     env.ROOMS  (Room)   Durable Object
+     env.GLOBAL (Global) Durable Object
+6. Do not replace the original Crests private room-server URL in src/online.cpp.
+7. Players simply press JOIN GLOBAL in the mod.

@@ -1,0 +1,28 @@
+name = "crests-rooms"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+[[durable_objects.bindings]]
+name = "ROOMS"
+class_name = "Room"
+
+[[durable_objects.bindings]]
+name = "GLOBAL"
+class_name = "Global"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Room"]
+
+[[migrations]]
+tag = "v2"
+new_sqlite_classes = ["Global"]
+
+# Private destination/from addresses are Wrangler secrets, never committed.
+[[send_email]]
+name = "EMAIL"
+
+# Optional private media bucket. Create this bucket before deploying media support.
+[[r2_buckets]]
+binding = "REPORT_MEDIA"
+bucket_name = "heroes-of-twilight-reports"
